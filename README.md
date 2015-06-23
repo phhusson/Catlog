@@ -45,6 +45,11 @@ If that still doesn't work, you can contact the creator of your ROM to file a bu
 
 And if you don't have root, check to see if you're running Jelly Bean (Android 4.2+).  [CatLog has issues with unrooted Jelly Bean][6].
 
+How to build
+-----------
+
+android update project -p .
+ant
 
 Details
 -----------

@@ -85,9 +85,8 @@ public class UpdateHelper {
                         @Override
                         public Boolean apply(Context context) {
                         	
-                        	boolean isJellyBean = VersionHelper.getVersionSdkIntCompat() >= VersionHelper.VERSION_JELLYBEAN;
-                        	
-                        	return isJellyBean && !PreferenceHelper.getJellybeanRootRan(context);
+							//We don't need SU
+							return false;
                         }
                     }, new Callback<Context>(){
 
